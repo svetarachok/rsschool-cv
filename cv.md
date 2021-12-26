@@ -1,20 +1,18 @@
 # **Svetlana Rachok**  
-## Frontend Developer  
+#### Frontend Developer  
 
-## **Contacts:**
+### **Contacts:**
 E-mail: **svetlana.rachok@gmail.com**  
 
 Phone - **+375 44 741-49-32**   
 
 Discord - **SvetaRachok** 
 
----
 
 > ## Objectives:
 >
 > I like challenges and complex projects and always try to grow both personally and within my career. Having an experience of websites development in past, I realized that the profession of Frontend Developer is exactly what I need.  That is why I’m here at RS School Frontend Course and will try to do my best to become a skilled specialist.
 
----
 
 ## **Skills**
 * Multitasking 
@@ -24,11 +22,11 @@ Discord - **SvetaRachok**
 * Problem solving 
 
 ### **Technical skills**
-* CSS/Html ++ +
+* CSS/Html +++
 * JavaScript +
 * Git / GitHub +++
-* Photoshop /Illustrator / Figma ++ ++
-* Jira/Asana ++ +
+* Photoshop /Illustrator / Figma ++++
+* Jira/Asana +++
 
 ### **Languages:** 
 English - B2, Italian - A2
@@ -71,15 +69,13 @@ at different companies with next duties:
 
 ---
 ## **Education** 
-_2013_ – **Marketing Specialist** 
- State Institute of Advanced Training under the Ministry of Trade, Belarus/Minsk   
+_2013_ – **Marketing Specialist** - State Institute of Advanced Training under the Ministry of Trade, _Belarus/Minsk_   
 
-_2007_ - **Interpreter**  
-Institute of Entrepreneurial Activity (IPD), Belarus/Minsk 
+_2007_ - **Interpreter** - Institute of Entrepreneurial Activity, _Belarus/Minsk_
 
 ### **Additional education:**  
-- **Frontend basics** (in progress) - [Rolling Scopes School] https://rs.school/ 
-- **Google Project Management** (in progress) - https://coursera.org 
-- **Html/CSS** - https://htmlacademy.ru 
-- **Javascript basics** - https://learn.javascript.ru 
+- **Frontend basics** (in progress) - [Rolling Scopes School](https://rs.school/); 
+- **Google Project Management** (in progress) - [Coursera.org](https://coursera.org); 
+- **Html/CSS** - [html academy](https://htmlacademy.ru) 
+- **Javascript basics** - [learn.javascript.ru](https://learn.javascript.ru) 
 - Youtube, skillshare.com - constantly apply
