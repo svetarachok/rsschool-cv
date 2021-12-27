@@ -1,3 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Barlow', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px 30px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Barlow Condensed', 'Arial', sans-serif;
+}
 h1 {
-    font-size: 26px;
+  font-size: 45px;
+}
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+h4{
+  font-size: 20px;
+}
+
+.nav {
+  margin-right: -30px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+}
+.nav-item {
+  padding: 30px;
+  background-color: #FFEDDE;
 }
