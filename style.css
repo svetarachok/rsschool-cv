@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-size: 45px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 h2 {
   font-size: 28px;
@@ -77,7 +77,7 @@ main {
 .about div.main-info {
   flex: 6;
 }
-.main-info div {
+.main-info > div {
   margin: 0 60px;
 }
 div.main-info p {
@@ -125,6 +125,7 @@ footer {
   margin: 0px;
   padding: 10px;
 }
+
 .nav-item {
   padding: 30px;
   background-color: #FFEDDE;
@@ -134,6 +135,20 @@ footer {
   color: #333333;
 }
 .nav-item a:hover {
+  color: #F37200;
+}
+
+.contacts > div {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: 'Barlow Condensed', 'Arial', sans-serif;
+}
+
+.icon-box {
+  width: 30px;
+  text-align: center;
+  margin-right: 20px;
   color: #F37200;
 }
 
