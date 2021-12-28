@@ -20,6 +20,18 @@ body {
     justify-content: stretch;
 }
 
+p {
+  margin: 5px 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:hover {
+  color: #F37200;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Barlow Condensed', 'Arial', sans-serif;
 }
@@ -39,44 +51,67 @@ h3 {
 h4{
   font-size: 20px;
 }
+.space-at-right {
+  padding-right: 20px;
+}
+
+
+
+/* Flex for section Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}
 
 .about {
+  flex: 100%;
   display: flex;
-  flex-direction: row;
-  margin: 0 80px;
+  align-items: center;
 }
 .about img {
+  display: flex;
+  flex: 3;
   width: 340px;
 }
-.about div.objectives {
-  padding-left: 60px;
+.about div.main-info {
+  flex: 6;
 }
-div.objectives p {
+.main-info div {
+  margin: 0 60px;
+}
+div.main-info p {
   margin-top: 0px;
 }
 
-.main-container {
-  display: flex;
-  flex: 1;
-  margin: 0 80px;
-}
-
 aside {
+  flex: 3;
   background-color: #FFEDDE;
-  padding: 0 40px;
-  flex: 0 0 340px;
 }
-
+aside section {
+  padding: 0 40px;
+}
 .container {
+  flex: 6;
+}
+.container > div{
   padding-left: 60px;
 }
+.container div:first-child {
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin: 0 40px;
+}
+
 footer {
   display: flex;
-  justify-content: end;
-  background-color: #f5f5f5;
-  margin: 0 80px;
-  padding: 20px 0;
-  font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin: 0 100px;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: #d6d6d6;
 }
 
 .nav ul {
@@ -88,6 +123,7 @@ footer {
 .nav-list {
   list-style-type: none;
   margin: 0px;
+  padding: 10px;
 }
 .nav-item {
   padding: 30px;
@@ -97,8 +133,12 @@ footer {
   text-decoration: none;
   color: #333333;
 }
+.nav-item a:hover {
+  color: #F37200;
+}
 
-.fa, .far {
+
+.fa-star {
   font-weight: 400;
   font-size: 10px;}
   
