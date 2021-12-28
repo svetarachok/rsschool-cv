@@ -14,75 +14,85 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 <body>
-  <main class="container">
-    <header>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">Skills</li>
-          <li class="nav-item">Experience</li>
-          <li class="nav-item">Education</li>
-        </ul>
-      </nav>
+  <header>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#skills">Skills</a></li>
+        <li class="nav-item"><a href="#experience">Experience</a></li>
+        <li class="nav-item"><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="about">
+    <img src="assets/SV-1.jpg" alt="Rachok S. CV image">
+    <div class="objectives">
       <h1>Svetlana Rachok</h1>
       <p>Frontend Developer</p>
-      <div>
-        <h2>Objectives</h2>
-        <p>I like challenges and complex projects and always try to grow both personally and within my career. 
+      <h2>Objectives</h2>
+      <p>I like challenges and complex projects and always try to grow both personally and within my career. 
           Having an experience of websites development in past, I realized that the profession of Frontend Developer is exactly what I need. Besides, bring things into action and see the result is a great and motivating thing.
-        </p>
-        <p>That is why I’m here at RS School Frontend Course and will try to do my best to become a skilled specialist.</p>
-      </div>
-      <img src="assets/SV-1.jpg" alt="Rachok S. CV image">
-    </header>
-    <aside>
-      <div>
+      </p>
+      <p>That is why I’m here at RS School Frontend Course and will try to do my best to become a skilled specialist.</p>
+    <div class="contacts">
         <p>Contacts:</p>
-        <ul>
+        <ul class="nav-list">
           <li>svetlana.rachok@gmail.com</li>
           <li>Phone - +375 44 741-49-32</li>
           <li>Discord - SvetaRachok</li>
         </ul>
       </div>
-      <div>
-        <h3>Skills</h3>
-        <ul>
-          <li>Multitasking</li>
-          <li>Strategic and analytical thinking</li>
-          <li>Attention to details</li>
-          <li>Responsibility</li>
-          <li>Good communication skills</li>
-        </ul>
-      </div>
-      <div>
-        <h3>
-          Technical skills
-        </h3>
-        <ul>
-          <li>CSS/Html +++</li>
-          <li>JavaScript +</li>
-          <li>Git / GitHub +++</li>
-          <li>Photoshop /Illustrator / Figma ++++</li>
-          <li>Jira/Asana +++</li>
-        </ul>
-      </div>
-      <div>
+    </div>
+  </section>
+  <main class="main-container">
+    <aside>
+      
+      <section id="skills" class="skills">
+        <div >
+          <h3>Skills</h3>
+          <ul class="nav-list">
+            <li>Multitasking</li>
+            <li>Strategic and analytical thinking</li>
+            <li>Attention to details</li>
+            <li>Responsibility</li>
+            <li>Good communication skills</li>
+         </ul>
+        </div>
+        <div>
+          <h3>
+            Technical skills
+          </h3>
+          <ul class="nav-list">
+            <li>CSS/Html <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="far fa-star"></span>
+              <span class="far fa-star"></span></li>
+            <li>JavaScript +</li>
+            <li>Git / GitHub +++</li>
+            <li>Photoshop /Illustrator / Figma ++++</li>
+            <li>Jira/Asana +++</li>
+          </ul>
+        </div>
+      </section>
+      <section>
         <h3>Languages</h3>
-        <ul>
+        <ul class="nav-list">
           <li>English - B2</li>
           <li>Italian - A2</li>
         </ul>
-      </div>
+      </section>
     </aside>
-    <section>
-      <div>
+    <section class="container">
+      
+      <section class="code">
         <h2>Code example</h2>
         <p>const getHiddenCard = (cardNumber, hiddenNumbersQuantity = 4) => {
   const lastSymbols = cardNumber.slice(12);
      
   return lastSymbols.padStart(hiddenNumbersQuantity+4, '*')
 }</p>
-      </div>
-      <div>
+      </section>
+      <section id="experience" class="experience">
         <h2>Experience</h2>
         <p>03.2020-present - Project Manager
 
@@ -105,8 +115,8 @@ Assigned tasks within a team of SEO specialist, developer and copywriter.
 Searched and purchased goods all over the world, made contracts, placed orders, negotiated prices and time bounds of manufacture;
 Controlled logistic chains, Customs clearance, proper solutions for quick and cost effective supplies.
 Maintained commodity base, launched new products sales</p>
-      </div>
-      <div>
+      </section>
+      <section id="education" class="education">
         <h2>Education</h2>
         <p>2013 – Marketing Specialist - State Institute of Advanced Training under the Ministry of Trade, Belarus/Minsk
 
@@ -118,9 +128,12 @@ Google Project Management (in progress) - Coursera.org;
 Html/CSS - html academy
 Javascript basics - learn.javascript.ru
 Youtube, skillshare.com - constantly apply</p>
-      </div>
+      </section>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <p>2021, <a href="https://github.com/svetarachok"> SvetaRachok GitHub</a> </p>
+    <a href="https://rs.school/"><img src="assets/rs_school_js.svg" alt="RS School"></a>
+  </footer>
 </body>
 </html>
