@@ -221,10 +221,20 @@ aside {
   padding: 0;
 }
 pre {
-  white-space: pre-wrap;}
+  white-space: pre-wrap;
+  word-wrap: break-word;}
 }
 
 @media (max-width: 425px) {
+  .nav ul{
+    display: block;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .nav-item {
+    padding: 5px;
+    text-align: center;
+  }
   .about {
     display: block;
     padding-bottom: 30px;
@@ -233,12 +243,26 @@ pre {
     width: 100%;
     text-align: center;
   }
+  .main-info > div {
+    margin: 0px;
+}
   aside, main {
     display: block;
   }
   aside {
     padding-top: 30px;
   }
+  aside > section {
+    padding: 0 30px 30px;
+  }
+  .experience, .education {
+    padding: 0 0 40px;}
+
+  footer {
+    padding: 20px;
+  }
   pre {
-  white-space: pre-wrap;}
+  white-space: pre-wrap;
+  word-wrap: break-word;
+font-size: 14px;}
 }
