@@ -70,7 +70,6 @@ main {
 .about img {
   display: flex;
   flex: 3;
-  width: 340px;
 }
 .about div.main-info {
   flex: 6;
@@ -169,10 +168,77 @@ pre {
   font-size: 16px;
 }
   
-@media (max-width: 768px) {
-  .container {
-    display: inline-block;
-    width: 100%;
-    padding: 0px;
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
   }
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 60px 0;
+  }
+  aside .projects {
+    order: 1;
+    flex: 30%;
+  }
+  aside .languages {
+    order: 3;
+    flex: 30%;
+  }
+  aside .skills {
+    flex: 50%;
+    order: 2;
+  }
+  aside .courses {
+    order: 4;
+    flex: 50%;
+  }
+  .container div:first-child {
+    margin: 40px 0;
+  }
+  .experience {
+    padding: 0 30px 30px;
+}
+.education {
+  padding: 0 30px 40px;
+}
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    display: flex;
+    justify-content: center;}
+  .about img {
+    width: 20%;
+  }
+  .main-info {
+    order: -1;
+  }
+  .main-info > div {
+    margin: 0 30px 0 0;
+}
+aside {
+  padding: 0;
+}
+pre {
+  white-space: pre-wrap;}
+}
+
+@media (max-width: 425px) {
+  .about {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .about img {
+    width: 100%;
+    text-align: center;
+  }
+  aside, main {
+    display: block;
+  }
+  aside {
+    padding-top: 30px;
+  }
+  pre {
+  white-space: pre-wrap;}
 }
