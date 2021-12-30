@@ -1,1 +1,1 @@
-# rsschool-cv
+https://svetarachok.github.io/rsschool-cv/
