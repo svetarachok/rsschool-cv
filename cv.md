@@ -42,31 +42,23 @@ const getHiddenCard = (cardNumber, hiddenNumbersQuantity = 4) => {
 ---
 ## **Experience**
 
-_03.2020-present_  - **Project Manager**  
+_01.2020-12-2021_  - **Project Manager**  
 
 *Company* deals in design and manufacture of test hardware for semiconductors tests and test equipment supplies.  
-- Manage projects on custom high-tech hardware design and manufacture, plan budget, costs and timeline. 
-- Explore EU/US/Asia markets, potential customers, competitors, subcontractors. 
-- Managed team of engineers, technicians and PCB designers.  
-- Search for potential clients, presented company and company’s products, establish contacts.    
-- Maintain import and export.
+- Manage projects on custom high-tech hardware design and manufacture, plan budget, scope and timeline.
+- Explore EU/US/Asia markets, potential customers, competitors, subcontractors, presented company and its products, establish contacts.
+- Manage team of engineers, technicians and PCB designers.
+- Control import and export.
 
 
 _2016-2019_ -  **Web designer / WordPress web sites developer, freelancer**
-- Web design (mostly web sites, separate pages, blocks and elements) - roadmap, prototyping, design, presentation to customer;
+- Web and graphic design - websites, interfaces, logos, printing products design, prototyping, presentation to customer;
 - Websites – CMS WordPress – develop and launch, update/redesign, implementation of new features, support;
-- Graphic design – logos, info graphics, cards, flyers, leaflets, banners, presentations, etc.   
 - Managed projects, controlled projects to be on track
-- Assigned tasks within a team of SEO specialist, developer and copywriter.  
+- Assigned tasks within a team of SEO specialist, developer and copywriter. 
 
 
-
-_04.2015 – 10.2009_ - **Foreign Trade Specialist** 
-at different companies with next duties:
-- Searched and purchased goods all over the world, made contracts, placed orders, negotiated prices and time bounds of manufacture; 
-- Controlled logistic chains, Customs clearance, proper solutions for quick and cost effective supplies.
-- Maintained commodity base, launched new products sales
-
+_2016 – 2010_ - **Foreign Trade Specialist at different companies.** 
 ---
 ## **Education** 
 _2013_ – **Marketing Specialist** - State Institute of Advanced Training under the Ministry of Trade, _Belarus/Minsk_   
@@ -74,8 +66,7 @@ _2013_ – **Marketing Specialist** - State Institute of Advanced Training under
 _2007_ - **Interpreter** - Institute of Entrepreneurial Activity, _Belarus/Minsk_
 
 ### **Additional education:**  
-- **Frontend basics** (in progress) - [Rolling Scopes School](https://rs.school/); 
+- **Frontend developer** (Stage 1 in progress) - [Rolling Scopes School](https://rs.school/); 
 - **Google Project Management** (in progress) - [Coursera.org](https://coursera.org); 
 - **Html/CSS** - [html academy](https://htmlacademy.ru) 
 - **Javascript basics** - [learn.javascript.ru](https://learn.javascript.ru) 
-- Youtube, skillshare.com - constantly apply
